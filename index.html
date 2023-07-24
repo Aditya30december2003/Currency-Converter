@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Coverter</title>
+</head>
+<body>
+    <div class="container">
+        <img src="notes.png" alt="notes" width="90px" height="60px" class="bimage">
+        <div class="head">Currency Converter</div>
+   
+<div class="amount-container">
+    <label for="amount" class="amount">Amount:</label>
+    <br>
+    <input type="text" value="100" id="amount">
+</div>
+
+<div class="option">
+
+    <div class="from currency">
+    <select class="drop fromC"></select>
+    </div>
+
+    <div class="to currency">
+    <select class="drop toC"></select>
+    </div>
+
+</div>
+
+
+<div class="button-container">
+    <button class="button" onclick="converter()">Convert</button>
+</div>
+
+<div class="answer"></div>
+</div>
+    <script src="app.js"></script>
+    <script src="api-key.js"></script>
+    <script src="currency-converter.js"></script>
+</body>
+</html>
