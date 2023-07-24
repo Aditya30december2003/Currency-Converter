@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: url('bg-image.jpg');
+    object-fit: contain;
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    width: 30vw;
+    height: 84vh;
+   text-align: center;
+   margin: auto;
+   margin-top: 2rem;
+   border-radius: 20px;
+   position:relative;
+   z-index: 3;
+}
+.container img{
+    margin-top: 1.5rem;
+}
+.option{
+    display: flex;
+    align-items: center;
+}
+.head{
+  font-weight:800;
+  font-size: 1.3rem;
+  color: green;
+  margin-top: 1rem;
+}
+
+.amount-container{
+    margin-top: 1.3rem;
+    text-align: left;
+}
+
+.amount{
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+label{
+    font-size: 1rem;
+    color:rgb(3, 113, 3);
+    font-weight: 700;
+}
+.amount-container input#amount{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 25vw;
+    color:rgb(3, 113, 3);
+    font-weight: 700;
+    font-size: 1.1rem;
+    outline: none;
+    padding:0rem 0.05rem;
+}
+
+.option{
+ margin: 3rem 3rem;
+}
+.to{
+    margin-left: 2rem;
+}
+select{
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+    background-color: rgb(4, 153, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 01rem;
+}
+
+button{
+    cursor: pointer;
+    width: 23vw;
+    height: 7vh;
+    background-color: rgb(4, 153, 4);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.answer{
+    width: 23vw;
+    height: 7vh;
+    background-color: rgb(135, 237, 135);
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 2rem 3rem;
+}
+
+.answer{
+    padding-top: 0.7rem;
+    font-size: 2rem;
+}
